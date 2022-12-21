@@ -10,8 +10,11 @@ public static class RadzenLocalizationExtensions
 
         //Register localized components here
         componentActivator.RegisterOverride(typeof(RadzenDataGrid<>), typeof(RadzenDataGridLocalized<>));
-        
+
+        services.AddSingleton<RadzenLocalizer>();
         services.AddSingleton<IComponentActivator>(componentActivator);
         return services;
     }
+    
+    
 }

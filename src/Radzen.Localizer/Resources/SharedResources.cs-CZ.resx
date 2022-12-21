@@ -17,12 +17,12 @@
     <resheader name="version">2.0</resheader>
     <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
     <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <data name="RadzenDataGrid.Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="RadzenDataGrid.Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="RadzenDataGrid.Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
         <value>[base64 mime encoded serialized .NET Framework object]</value>
     </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <data name="RadzenDataGrid.Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
@@ -117,76 +117,76 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ColumnsText" xml:space="preserve">
+  <data name="RadzenDataGrid.ColumnsText" xml:space="preserve">
     <value>Sloupce</value>
   </data>
-  <data name="ColumnsShowingText" xml:space="preserve">
+  <data name="RadzenDataGrid.ColumnsShowingText" xml:space="preserve">
     <value>Zobrazit sloupce</value>
   </data>
-  <data name="ClearFilterText" xml:space="preserve">
+  <data name="RadzenDataGrid.ClearFilterText" xml:space="preserve">
     <value>Zrušit</value>
   </data>
-  <data name="ApplyFilterText" xml:space="preserve">
+  <data name="RadzenDataGrid.ApplyFilterText" xml:space="preserve">
     <value>Filtrovat</value>
   </data>
-  <data name="AndOperatorText" xml:space="preserve">
+  <data name="RadzenDataGrid.AndOperatorText" xml:space="preserve">
     <value>A</value>
   </data>
-  <data name="AllColumnsText" xml:space="preserve">
+  <data name="RadzenDataGrid.AllColumnsText" xml:space="preserve">
     <value>Všechny</value>
   </data>
-  <data name="StartsWithText" xml:space="preserve">
+  <data name="RadzenDataGrid.StartsWithText" xml:space="preserve">
     <value>Začína na</value>
   </data>
-  <data name="OrOperatorText" xml:space="preserve">
+  <data name="RadzenDataGrid.OrOperatorText" xml:space="preserve">
     <value>Nebo</value>
   </data>
-  <data name="NotEqualsText" xml:space="preserve">
+  <data name="RadzenDataGrid.NotEqualsText" xml:space="preserve">
     <value>Nerovná se</value>
   </data>
-  <data name="LessThanText" xml:space="preserve">
+  <data name="RadzenDataGrid.LessThanText" xml:space="preserve">
     <value>Menší než</value>
   </data>
-  <data name="LessThanOrEqualsText" xml:space="preserve">
+  <data name="RadzenDataGrid.LessThanOrEqualsText" xml:space="preserve">
     <value>Menší než nebo rovná se</value>
   </data>
-  <data name="IsNullText" xml:space="preserve">
+  <data name="RadzenDataGrid.IsNullText" xml:space="preserve">
     <value>Je null</value>
   </data>
-  <data name="IsNotNullText" xml:space="preserve">
+  <data name="RadzenDataGrid.IsNotNullText" xml:space="preserve">
     <value>Není null</value>
   </data>
-  <data name="IsNotEmptyText" xml:space="preserve">
+  <data name="RadzenDataGrid.IsNotEmptyText" xml:space="preserve">
     <value>Není prázdny</value>
   </data>
-  <data name="IsEmptyText" xml:space="preserve">
+  <data name="RadzenDataGrid.IsEmptyText" xml:space="preserve">
     <value>Je prázdny</value>
   </data>
-  <data name="GreaterThanText" xml:space="preserve">
+  <data name="RadzenDataGrid.GreaterThanText" xml:space="preserve">
     <value>Vetší než</value>
   </data>
-  <data name="GreaterThanOrEqualsText" xml:space="preserve">
+  <data name="RadzenDataGrid.GreaterThanOrEqualsText" xml:space="preserve">
     <value>Vetší než nebo rovná se</value>
   </data>
-  <data name="FilterText" xml:space="preserve">
+  <data name="RadzenDataGrid.FilterText" xml:space="preserve">
     <value>Filtr</value>
   </data>
-  <data name="EqualsText" xml:space="preserve">
+  <data name="RadzenDataGrid.EqualsText" xml:space="preserve">
     <value>Rovná se</value>
   </data>
-  <data name="EndsWithText" xml:space="preserve">
+  <data name="RadzenDataGrid.EndsWithText" xml:space="preserve">
     <value>Končí na</value>
   </data>
-  <data name="EnumFilterSelectText" xml:space="preserve">
+  <data name="RadzenDataGrid.EnumFilterSelectText" xml:space="preserve">
     <value>Vybrat..</value>
   </data>
-  <data name="DoesNotContainText" xml:space="preserve">
+  <data name="RadzenDataGrid.DoesNotContainText" xml:space="preserve">
     <value>Neobsahuje text</value>
   </data>
-  <data name="ContainsText" xml:space="preserve">
+  <data name="RadzenDataGrid.ContainsText" xml:space="preserve">
     <value>Obsahuje text</value>
   </data>
-  <data name="Button0.Text" xml:space="preserve">
+  <data name="RadzenDataGrid.Button0.Text" xml:space="preserve">
     <value>Přidat</value>
   </data>
 </root>

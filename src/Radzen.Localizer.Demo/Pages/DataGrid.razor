@@ -1,4 +1,5 @@
 @page "/data-grid"
+@using System.Reflection
 
 <PageTitle>DataGrid</PageTitle>
 <div class="row">
@@ -6,4 +7,24 @@
         <RadzenText Text="DataGrid" TextStyle="TextStyle.H3" TagName="TagName.H1" />
     </div>
 </div>
-<RadzenDataGrid TItem="dynamic" AllowFiltering="true" AllowCompositeDataCells="true" AllowColumnResize="true" AllowColumnReorder="true" AllowColumnPicking="true" AllowMultiColumnSorting="true" AllowPaging="true" AllowSorting="true"></RadzenDataGrid>
+<RadzenDataGrid TItem="Type" Data="@Types" AllowFiltering="true" AllowCompositeDataCells="true" AllowColumnResize="true" AllowColumnReorder="true" AllowColumnPicking="true" AllowMultiColumnSorting="true" AllowPaging="true" AllowSorting="true" AllowGrouping="true" AllowVirtualization="true" GroupFootersAlwaysVisible="true" PagerAlwaysVisible="true">
+    <Columns>
+        <RadzenDataGridColumn TItem="Type" Property="@nameof(Type.Name)" Title="Name" ></RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="Type" Property="@nameof(Type.BaseType.Name)" Title="BaseType"></RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="Type"  Property="@nameof(Type.IsGenericType)" Title="Generic"></RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="Type"  Property="@nameof(Type.FullName)" Title="Full Name"></RadzenDataGridColumn>
+    </Columns>
+    
+</RadzenDataGrid>
+
+@code{
+    List<Type> Types { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        Assembly rb = typeof(RadzenComponent).Assembly;
+        Types = rb.GetTypes().Where(x => x.IsSubclassOf(typeof(RadzenComponent))).ToList();
+    }
+
+}

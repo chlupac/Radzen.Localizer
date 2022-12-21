@@ -117,76 +117,286 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="StartsWithText" xml:space="preserve">
-    <value>Starts with</value>
+
+  <data name="PagedDataBoundComponent.PageSizeText" xml:space="preserve">
+    <value>PagedDataBoundComponent.PageSizeText</value>
   </data>
-  <data name="OrOperatorText" xml:space="preserve">
-    <value>Or</value>
+  <data name="RadzenButton.BusyText" xml:space="preserve">
+    <value>RadzenButton.BusyText</value>
   </data>
-  <data name="NotEqualsText" xml:space="preserve">
-    <value>Not equals</value>
+  <data name="RadzenCheckBoxList.SelectAllText" xml:space="preserve">
+    <value>RadzenCheckBoxList.SelectAllText</value>
   </data>
-  <data name="LessThanText" xml:space="preserve">
-    <value>Less then</value>
+  <data name="RadzenColorPicker.HexText" xml:space="preserve">
+    <value>RadzenColorPicker.HexText</value>
   </data>
-  <data name="LessThanOrEqualsText" xml:space="preserve">
-    <value>Less the or equals</value>
+  <data name="RadzenColorPicker.RedText" xml:space="preserve">
+    <value>RadzenColorPicker.RedText</value>
   </data>
-  <data name="IsNullText" xml:space="preserve">
-    <value>Is null</value>
+  <data name="RadzenColorPicker.GreenText" xml:space="preserve">
+    <value>RadzenColorPicker.GreenText</value>
   </data>
-  <data name="IsNotNullText" xml:space="preserve">
-    <value>Is not null</value>
+  <data name="RadzenColorPicker.BlueText" xml:space="preserve">
+    <value>RadzenColorPicker.BlueText</value>
   </data>
-  <data name="IsNotEmptyText" xml:space="preserve">
-    <value>Is not emmpty</value>
+  <data name="RadzenColorPicker.AlphaText" xml:space="preserve">
+    <value>RadzenColorPicker.AlphaText</value>
   </data>
-  <data name="IsEmptyText" xml:space="preserve">
-    <value>Is empty</value>
+  <data name="RadzenColorPicker.ButtonText" xml:space="preserve">
+    <value>RadzenColorPicker.ButtonText</value>
   </data>
-  <data name="GreaterThanText" xml:space="preserve">
-    <value>Great then</value>
+  <data name="RadzenDataFilter.FilterText" xml:space="preserve">
+    <value>RadzenDataFilter.FilterText</value>
   </data>
-  <data name="GreaterThanOrEqualsText" xml:space="preserve">
-    <value>Great then or equals</value>
+  <data name="RadzenDataFilter.EnumFilterSelectText" xml:space="preserve">
+    <value>RadzenDataFilter.EnumFilterSelectText</value>
   </data>
-  <data name="FilterText" xml:space="preserve">
-    <value>Filter</value>
+  <data name="RadzenDataFilter.AndOperatorText" xml:space="preserve">
+    <value>RadzenDataFilter.AndOperatorText</value>
   </data>
-  <data name="EqualsText" xml:space="preserve">
-    <value>Equals</value>
+  <data name="RadzenDataFilter.OrOperatorText" xml:space="preserve">
+    <value>RadzenDataFilter.OrOperatorText</value>
   </data>
-  <data name="EndsWithText" xml:space="preserve">
-    <value>End with</value>
+  <data name="RadzenDataFilter.ApplyFilterText" xml:space="preserve">
+    <value>RadzenDataFilter.ApplyFilterText</value>
   </data>
-  <data name="EnumFilterSelectText" xml:space="preserve">
-    <value>Select..</value>
+  <data name="RadzenDataFilter.ClearFilterText" xml:space="preserve">
+    <value>RadzenDataFilter.ClearFilterText</value>
   </data>
-  <data name="DoesNotContainText" xml:space="preserve">
-    <value>Does not contain</value>
+  <data name="RadzenDataFilter.AddFilterText" xml:space="preserve">
+    <value>RadzenDataFilter.AddFilterText</value>
   </data>
-  <data name="ContainsText" xml:space="preserve">
-    <value>Contains</value>
+  <data name="RadzenDataFilter.RemoveFilterText" xml:space="preserve">
+    <value>RadzenDataFilter.RemoveFilterText</value>
   </data>
-  <data name="ColumnsText" xml:space="preserve">
-    <value>Columns</value>
+  <data name="RadzenDataFilter.AddFilterGroupText" xml:space="preserve">
+    <value>RadzenDataFilter.AddFilterGroupText</value>
   </data>
-  <data name="ColumnsShowingText" xml:space="preserve">
-    <value>columns showing</value>
+  <data name="RadzenDataFilter.EqualsText" xml:space="preserve">
+    <value>RadzenDataFilter.EqualsText</value>
   </data>
-  <data name="ClearFilterText" xml:space="preserve">
-    <value>Clear</value>
+  <data name="RadzenDataFilter.NotEqualsText" xml:space="preserve">
+    <value>RadzenDataFilter.NotEqualsText</value>
   </data>
-  <data name="ApplyFilterText" xml:space="preserve">
-    <value>Apply</value>
+  <data name="RadzenDataFilter.LessThanText" xml:space="preserve">
+    <value>RadzenDataFilter.LessThanText</value>
   </data>
-  <data name="AndOperatorText" xml:space="preserve">
-    <value>And</value>
+  <data name="RadzenDataFilter.LessThanOrEqualsText" xml:space="preserve">
+    <value>RadzenDataFilter.LessThanOrEqualsText</value>
   </data>
-  <data name="AllColumnsText" xml:space="preserve">
-    <value>All</value>
+  <data name="RadzenDataFilter.GreaterThanText" xml:space="preserve">
+    <value>RadzenDataFilter.GreaterThanText</value>
   </data>
-  <data name="Button0.Text" xml:space="preserve">
-    <value>Add</value>
+  <data name="RadzenDataFilter.GreaterThanOrEqualsText" xml:space="preserve">
+    <value>RadzenDataFilter.GreaterThanOrEqualsText</value>
   </data>
+  <data name="RadzenDataFilter.EndsWithText" xml:space="preserve">
+    <value>RadzenDataFilter.EndsWithText</value>
+  </data>
+  <data name="RadzenDataFilter.ContainsText" xml:space="preserve">
+    <value>RadzenDataFilter.ContainsText</value>
+  </data>
+  <data name="RadzenDataFilter.DoesNotContainText" xml:space="preserve">
+    <value>RadzenDataFilter.DoesNotContainText</value>
+  </data>
+  <data name="RadzenDataFilter.StartsWithText" xml:space="preserve">
+    <value>RadzenDataFilter.StartsWithText</value>
+  </data>
+  <data name="RadzenDataFilter.IsNotNullText" xml:space="preserve">
+    <value>RadzenDataFilter.IsNotNullText</value>
+  </data>
+  <data name="RadzenDataFilter.IsNullText" xml:space="preserve">
+    <value>RadzenDataFilter.IsNullText</value>
+  </data>
+  <data name="RadzenDataFilter.IsEmptyText" xml:space="preserve">
+    <value>RadzenDataFilter.IsEmptyText</value>
+  </data>
+  <data name="RadzenDataFilter.IsNotEmptyText" xml:space="preserve">
+    <value>RadzenDataFilter.IsNotEmptyText</value>
+  </data>
+  <data name="RadzenDataGrid.FilterText" xml:space="preserve">
+    <value>RadzenDataGrid.FilterText</value>
+  </data>
+  <data name="RadzenDataGrid.EnumFilterSelectText" xml:space="preserve">
+    <value>RadzenDataGrid.EnumFilterSelectText</value>
+  </data>
+  <data name="RadzenDataGrid.AndOperatorText" xml:space="preserve">
+    <value>RadzenDataGrid.AndOperatorText</value>
+  </data>
+  <data name="RadzenDataGrid.OrOperatorText" xml:space="preserve">
+    <value>RadzenDataGrid.OrOperatorText</value>
+  </data>
+  <data name="RadzenDataGrid.ApplyFilterText" xml:space="preserve">
+    <value>RadzenDataGrid.ApplyFilterText</value>
+  </data>
+  <data name="RadzenDataGrid.ClearFilterText" xml:space="preserve">
+    <value>RadzenDataGrid.ClearFilterText</value>
+  </data>
+  <data name="RadzenDataGrid.EqualsText" xml:space="preserve">
+    <value>RadzenDataGrid.EqualsText</value>
+  </data>
+  <data name="RadzenDataGrid.NotEqualsText" xml:space="preserve">
+    <value>RadzenDataGrid.NotEqualsText</value>
+  </data>
+  <data name="RadzenDataGrid.LessThanText" xml:space="preserve">
+    <value>RadzenDataGrid.LessThanText</value>
+  </data>
+  <data name="RadzenDataGrid.LessThanOrEqualsText" xml:space="preserve">
+    <value>RadzenDataGrid.LessThanOrEqualsText</value>
+  </data>
+  <data name="RadzenDataGrid.GreaterThanText" xml:space="preserve">
+    <value>RadzenDataGrid.GreaterThanText</value>
+  </data>
+  <data name="RadzenDataGrid.GreaterThanOrEqualsText" xml:space="preserve">
+    <value>RadzenDataGrid.GreaterThanOrEqualsText</value>
+  </data>
+  <data name="RadzenDataGrid.EndsWithText" xml:space="preserve">
+    <value>RadzenDataGrid.EndsWithText</value>
+  </data>
+  <data name="RadzenDataGrid.ContainsText" xml:space="preserve">
+    <value>RadzenDataGrid.ContainsText</value>
+  </data>
+  <data name="RadzenDataGrid.DoesNotContainText" xml:space="preserve">
+    <value>RadzenDataGrid.DoesNotContainText</value>
+  </data>
+  <data name="RadzenDataGrid.StartsWithText" xml:space="preserve">
+    <value>RadzenDataGrid.StartsWithText</value>
+  </data>
+  <data name="RadzenDataGrid.IsNotNullText" xml:space="preserve">
+    <value>RadzenDataGrid.IsNotNullText</value>
+  </data>
+  <data name="RadzenDataGrid.IsNullText" xml:space="preserve">
+    <value>RadzenDataGrid.IsNullText</value>
+  </data>
+  <data name="RadzenDataGrid.IsEmptyText" xml:space="preserve">
+    <value>RadzenDataGrid.IsEmptyText</value>
+  </data>
+  <data name="RadzenDataGrid.IsNotEmptyText" xml:space="preserve">
+    <value>RadzenDataGrid.IsNotEmptyText</value>
+  </data>
+  <data name="RadzenDataGrid.EmptyText" xml:space="preserve">
+    <value>RadzenDataGrid.EmptyText</value>
+  </data>
+  <data name="RadzenDataGrid.ColumnsShowingText" xml:space="preserve">
+    <value>RadzenDataGrid.ColumnsShowingText</value>
+  </data>
+  <data name="RadzenDataGrid.AllColumnsText" xml:space="preserve">
+    <value>RadzenDataGrid.AllColumnsText</value>
+  </data>
+  <data name="RadzenDataGrid.ColumnsText" xml:space="preserve">
+    <value>RadzenDataGrid.ColumnsText</value>
+  </data>
+  <data name="RadzenDataGrid.GroupPanelText" xml:space="preserve">
+    <value>RadzenDataGrid.GroupPanelText</value>
+  </data>
+  <data name="RadzenDataGrid.PageSizeText" xml:space="preserve">
+    <value>RadzenDataGrid.PageSizeText</value>
+  </data>
+  <data name="RadzenDataList.PageSizeText" xml:space="preserve">
+    <value>RadzenDataList.PageSizeText</value>
+  </data>
+  <data name="RadzenDropDown.SelectedItemsText" xml:space="preserve">
+    <value>RadzenDropDown.SelectedItemsText</value>
+  </data>
+  <data name="RadzenDropDown.SelectAllText" xml:space="preserve">
+    <value>RadzenDropDown.SelectAllText</value>
+  </data>
+  <data name="RadzenDropDownDataGrid.EmptyText" xml:space="preserve">
+    <value>RadzenDropDownDataGrid.EmptyText</value>
+  </data>
+  <data name="RadzenDropDownDataGrid.SearchText" xml:space="preserve">
+    <value>RadzenDropDownDataGrid.SearchText</value>
+  </data>
+  <data name="RadzenDropDownDataGrid.SelectedItemsText" xml:space="preserve">
+    <value>RadzenDropDownDataGrid.SelectedItemsText</value>
+  </data>
+  <data name="RadzenFileInput.ChooseText" xml:space="preserve">
+    <value>RadzenFileInput.ChooseText</value>
+  </data>
+  <data name="RadzenLogin.LoginText" xml:space="preserve">
+    <value>RadzenLogin.LoginText</value>
+  </data>
+  <data name="RadzenLogin.RegisterText" xml:space="preserve">
+    <value>RadzenLogin.RegisterText</value>
+  </data>
+  <data name="RadzenLogin.RememberMeText" xml:space="preserve">
+    <value>RadzenLogin.RememberMeText</value>
+  </data>
+  <data name="RadzenLogin.RegisterMessageText" xml:space="preserve">
+    <value>RadzenLogin.RegisterMessageText</value>
+  </data>
+  <data name="RadzenLogin.ResetPasswordText" xml:space="preserve">
+    <value>RadzenLogin.ResetPasswordText</value>
+  </data>
+  <data name="RadzenLogin.UserText" xml:space="preserve">
+    <value>RadzenLogin.UserText</value>
+  </data>
+  <data name="RadzenLogin.PasswordText" xml:space="preserve">
+    <value>RadzenLogin.PasswordText</value>
+  </data>
+  <data name="RadzenPager.PageSizeText" xml:space="preserve">
+    <value>RadzenPager.PageSizeText</value>
+  </data>
+  <data name="RadzenScheduler.TodayText" xml:space="preserve">
+    <value>RadzenScheduler.TodayText</value>
+  </data>
+  <data name="RadzenSteps.NextText" xml:space="preserve">
+    <value>RadzenSteps.NextText</value>
+  </data>
+  <data name="RadzenSteps.PreviousText" xml:space="preserve">
+    <value>RadzenSteps.PreviousText</value>
+  </data>
+  <data name="RadzenUpload.ChooseText" xml:space="preserve">
+    <value>RadzenUpload.ChooseText</value>
+  </data>
+  <data name="RadzenGrid.FilterText" xml:space="preserve">
+    <value>RadzenGrid.FilterText</value>
+  </data>
+  <data name="RadzenGrid.AndOperatorText" xml:space="preserve">
+    <value>RadzenGrid.AndOperatorText</value>
+  </data>
+  <data name="RadzenGrid.OrOperatorText" xml:space="preserve">
+    <value>RadzenGrid.OrOperatorText</value>
+  </data>
+  <data name="RadzenGrid.ApplyFilterText" xml:space="preserve">
+    <value>RadzenGrid.ApplyFilterText</value>
+  </data>
+  <data name="RadzenGrid.ClearFilterText" xml:space="preserve">
+    <value>RadzenGrid.ClearFilterText</value>
+  </data>
+  <data name="RadzenGrid.EqualsText" xml:space="preserve">
+    <value>RadzenGrid.EqualsText</value>
+  </data>
+  <data name="RadzenGrid.NotEqualsText" xml:space="preserve">
+    <value>RadzenGrid.NotEqualsText</value>
+  </data>
+  <data name="RadzenGrid.LessThanText" xml:space="preserve">
+    <value>RadzenGrid.LessThanText</value>
+  </data>
+  <data name="RadzenGrid.LessThanOrEqualsText" xml:space="preserve">
+    <value>RadzenGrid.LessThanOrEqualsText</value>
+  </data>
+  <data name="RadzenGrid.GreaterThanText" xml:space="preserve">
+    <value>RadzenGrid.GreaterThanText</value>
+  </data>
+  <data name="RadzenGrid.GreaterThanOrEqualsText" xml:space="preserve">
+    <value>RadzenGrid.GreaterThanOrEqualsText</value>
+  </data>
+  <data name="RadzenGrid.EndsWithText" xml:space="preserve">
+    <value>RadzenGrid.EndsWithText</value>
+  </data>
+  <data name="RadzenGrid.ContainsText" xml:space="preserve">
+    <value>RadzenGrid.ContainsText</value>
+  </data>
+  <data name="RadzenGrid.StartsWithText" xml:space="preserve">
+    <value>RadzenGrid.StartsWithText</value>
+  </data>
+  <data name="RadzenGrid.EmptyText" xml:space="preserve">
+    <value>RadzenGrid.EmptyText</value>
+  </data>
+  <data name="RadzenGrid.PageSizeText" xml:space="preserve">
+    <value>RadzenGrid.PageSizeText</value>
+  </data>
+
+
 </root>
