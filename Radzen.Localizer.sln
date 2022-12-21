@@ -3,26 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E4CCEB0A-B44A-43FF-ADED-F4E935EAC1E7}"
-	ProjectSection(SolutionItems) = preProject
-		tests\Directory.Build.props = tests\Directory.Build.props
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radzen.Localizer.Tests", "tests\Radzen.Localizer.Tests\Radzen.Localizer.Tests.csproj", "{4892FA6E-CA4F-461F-86B1-8015AAF58A03}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ECC8A5FE-FD49-4A48-9B9F-AA2FD9AA40E8}"
 	ProjectSection(SolutionItems) = preProject
-	src\Directory.Build.props = src\Directory.Build.props
+	
+src\Directory.Build.props = src\Directory.Build.props
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radzen.Localizer", "src\Radzen.Localizer\Radzen.Localizer.csproj", "{592D16AC-7A16-4AE9-89C6-3D789FA292A2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{bb0d1d3a-4948-4d57-9d60-01b815e660c7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB0D1D3A-4948-4D57-9D60-01B815E660C7}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Build.props = Directory.Build.props
 		LICENSE.md = LICENSE.md
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radzen.Localization.Demo", "src\Radzen.Localizer.Demo\Radzen.Localization.Demo.csproj", "{EE49C4F0-99C1-45F4-AA11-332B2BA622E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,17 +29,17 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4892FA6E-CA4F-461F-86B1-8015AAF58A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4892FA6E-CA4F-461F-86B1-8015AAF58A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4892FA6E-CA4F-461F-86B1-8015AAF58A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4892FA6E-CA4F-461F-86B1-8015AAF58A03}.Release|Any CPU.Build.0 = Release|Any CPU
 		{592D16AC-7A16-4AE9-89C6-3D789FA292A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{592D16AC-7A16-4AE9-89C6-3D789FA292A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{592D16AC-7A16-4AE9-89C6-3D789FA292A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{592D16AC-7A16-4AE9-89C6-3D789FA292A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE49C4F0-99C1-45F4-AA11-332B2BA622E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE49C4F0-99C1-45F4-AA11-332B2BA622E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE49C4F0-99C1-45F4-AA11-332B2BA622E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE49C4F0-99C1-45F4-AA11-332B2BA622E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4892FA6E-CA4F-461F-86B1-8015AAF58A03} = {E4CCEB0A-B44A-43FF-ADED-F4E935EAC1E7}
 		{592D16AC-7A16-4AE9-89C6-3D789FA292A2} = {ECC8A5FE-FD49-4A48-9B9F-AA2FD9AA40E8}
+		{EE49C4F0-99C1-45F4-AA11-332B2BA622E2} = {ECC8A5FE-FD49-4A48-9B9F-AA2FD9AA40E8}
 	EndGlobalSection
 EndGlobal

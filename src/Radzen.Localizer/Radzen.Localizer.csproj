@@ -1,9 +1,33 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+        <CompilerGeneratedFilesOutputPath>Generated</CompilerGeneratedFilesOutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- Exclude the output of source generators from the compilation -->
+        <Compile Remove="$(CompilerGeneratedFilesOutputPath)/**/*.cs" />
+    </ItemGroup>
+
+
+
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="7.0.1" />
+      <PackageReference Include="Radzen.Blazor" Version="4.4.6" />
+    </ItemGroup>
+
+
+
+
+    <ItemGroup>
+      <Reference Include="Microsoft.Extensions.Localization">
+        <HintPath>..\..\..\..\..\..\..\usr\local\share\dotnet\shared\Microsoft.AspNetCore.App\7.0.1\Microsoft.Extensions.Localization.dll</HintPath>
+      </Reference>
+    </ItemGroup>
 
 </Project>

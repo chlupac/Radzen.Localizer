@@ -1,0 +1,86 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="StartsWithText" xml:space="preserve">
+    <value>Starts with</value>
+  </data>
+    <data name="OrOperatorText" xml:space="preserve">
+    <value>Or</value>
+  </data>
+    <data name="NotEqualsText" xml:space="preserve">
+    <value>Not equals</value>
+  </data>
+    <data name="LessThanText" xml:space="preserve">
+    <value>Less then</value>
+  </data>
+    <data name="LessThanOrEqualsText" xml:space="preserve">
+    <value>Less the or equals</value>
+  </data>
+    <data name="IsNullText" xml:space="preserve">
+    <value>Is null</value>
+  </data>
+    <data name="IsNotNullText" xml:space="preserve">
+    <value>Is not null</value>
+  </data>
+    <data name="IsNotEmptyText" xml:space="preserve">
+    <value>Is not emmpty</value>
+  </data>
+    <data name="IsEmptyText" xml:space="preserve">
+    <value>Is empty</value>
+  </data>
+    <data name="GreaterThanText" xml:space="preserve">
+    <value>Great then</value>
+  </data>
+    <data name="GreaterThanOrEqualsText" xml:space="preserve">
+    <value>Great then or equals</value>
+  </data>
+    <data name="FilterText" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+    <data name="EqualsText" xml:space="preserve">
+    <value>Equals</value>
+  </data>
+    <data name="EndsWithText" xml:space="preserve">
+    <value>End with</value>
+  </data>
+    <data name="EnumFilterSelectText" xml:space="preserve">
+    <value>Select..</value>
+  </data>
+    <data name="DoesNotContainText" xml:space="preserve">
+    <value>Does not contain</value>
+  </data>
+    <data name="ContainsText" xml:space="preserve">
+    <value>Contains</value>
+  </data>
+    <data name="ColumnsText" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+    <data name="ColumnsShowingText" xml:space="preserve">
+    <value>columns showing</value>
+  </data>
+    <data name="ClearFilterText" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+    <data name="ApplyFilterText" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+    <data name="AndOperatorText" xml:space="preserve">
+    <value>And</value>
+  </data>
+    <data name="AllColumnsText" xml:space="preserve">
+    <value>All</value>
+  </data>
+    <data name="Button0.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+</root>
