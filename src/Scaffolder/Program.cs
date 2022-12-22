@@ -44,5 +44,11 @@ foreach (Type type in rb.GetTypes().Where(x=>x.IsSubclassOf(typeof(RadzenCompone
     }
 }
 
+foreach (Type type in rb.GetTypes().Where(x=>x.IsSubclassOf(typeof(RadzenComponent)) && x.GetProperties().Any(p=>p.Name.EndsWith("Text")&& p.Name!="Text")))
+{
+    var name = type.Name.Replace("`1", "");
+    var p = type.IsGenericType ? "<>" : "";
+    Console.WriteLine($"componentActivator.RegisterOverride(typeof({name}{p}), typeof({name}Localized{p}));");
+}
 
 Console.ReadLine();
